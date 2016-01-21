@@ -1,9 +1,7 @@
 (function() {
     if (document.readyState == "complete") {
         measure();
-    } else {
-        window.addEventListener("load", measure);
-    }
+    } 
     
     function measure() {
         setTimeout(function() {
